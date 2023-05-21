@@ -1,0 +1,168 @@
+body{
+	background-image: url("lachy-spratt-dv5vwLSOQK8-unsplash.jpg");
+	background-size: cover;
+	opacity: 0.8;
+
+}
+h1 {
+	margin:auto;
+	text-align: center;
+	padding:100px 0;
+	font-family: "MuseoModerno", sans-serif;
+	color: rgb(186, 11, 11);
+	}
+
+#bar {
+	background-color: rgb(186, 11, 11);
+	display: grid;
+	}
+.Equalizer {
+  display: grid;
+  grid-template-columns: repeat(10,30px);
+  grid-template-rows: 200px;
+  /*grid-template-rows:auto auto auto auto auto auto auto auto auto auto;*/
+  align-items: end;
+  justify-content: center;
+  color: black;
+  margin: auto;
+  column-gap: 20px;
+  text-align: center;
+  padding: auto;
+  
+  
+ }
+
+.first {
+	height: 175px;
+	animation: grow 0.56s infinite linear ;
+	animation-direction: initial;
+	animation-delay: 0.6s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+
+	
+}
+	@keyframes grow {
+	from { height:0; }
+	to { height: ; }
+}
+.second {
+	height: 60px;
+	animation: grow 0.56s infinite linear;
+	transition: bottom top;
+	animation-delay: 0.3s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.third {
+	height: 190px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.7s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.fourth {
+	height: 220px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.2s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.fifth {
+	height: 154px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.3s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.sixth {
+	height: 134px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.5s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.seventh {
+	height: 250px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.5s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.eighth {
+	height: 121px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 1s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height:}
+}
+
+.ninth {
+	height: 90px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.46s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+.tenth {
+	height: 69px;
+	animation: grow 0.56s infinite linear;
+	animation-delay: 0.8s;
+	transform-origin: bottom;
+	border:1px solid red;
+	border-radius: 3px;
+}
+@keyframes grow {
+	from { height:0%; }
+	to { height: }
+}
+
+
